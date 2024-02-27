@@ -1,4 +1,4 @@
-# Pipelined Canny Edge Detector in C++ and OpenCV using Pthreads and MPI
+# Pipelined Canny Edge Detector in C++ and OpenCV using Pthreads
 
 ## OpenCV Installation
 
@@ -19,3 +19,13 @@ g++ -I $OPENCV_DIR/include/opencv4 -L $OPENCV_DIR/lib64 -lopencv_core -lopencv_i
 ```
 
 `-l<something>` are the libraries that you will be using. You can find them in `$OPENCV_DIR/lib64` directory named something along the lines of `lib<something>.so*`.
+
+# Example
+
+![](./pictures/picture.jpeg)
+![](./pictures/stage1.jpeg)
+![](./pictures/stage2.jpeg)
+![](./pictures/stage3.jpeg)
+![](./pictures/stage4_weak.jpeg)
+![](./pictures/stage4_strong.jpeg)
+![](./pictures/stage5.jpeg)
